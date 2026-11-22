@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "factorlab"
+version = "1.0.0"
+description = "Alpha Autopsy: equity factor backtests on NIFTY-50 stocks, with survivorship-bias diagnostics"
+authors = [{ name = "Madhav Kumar" }]
+license = { text = "MIT" }
+requires-python = ">=3.9"
+dependencies = ["numpy>=1.24", "pandas>=2.0", "matplotlib>=3.7"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

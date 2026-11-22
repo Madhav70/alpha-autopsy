@@ -1,0 +1,277 @@
+{
+  "period": [
+    "2013-11-29",
+    "2022-09-30"
+  ],
+  "months": 107,
+  "stocks": 48,
+  "cost_bps": 25,
+  "data_fixes": [
+    [
+      "ADANIENT",
+      "2015-06-03",
+      "2015-06-03",
+      "drop_return",
+      "Ex-date of the demerger of the port, power and transmission businesses; shareholders received shares in other companies, so the -39% move is not a loss."
+    ],
+    [
+      "TATASTEEL",
+      "2022-06-16",
+      "2022-06-16",
+      "drop_return",
+      "Break in the source's adjusted-price series (adjusted close jumps from 45 to 90 while the traded close falls 6%)."
+    ],
+    [
+      "HDFC",
+      "2013-12-12",
+      "2015-12-24",
+      "stale",
+      "Price frozen at 818.20 with zero volume for two years in the source data."
+    ]
+  ],
+  "survivorship": {
+    "ew_2022_constituents_ann_pct": 22.0,
+    "nifty50_price_index_ann_pct": 11.85,
+    "gap_pct_per_year": 10.15
+  },
+  "factors": {
+    "Momentum (12-1)": {
+      "ls_gross_ann_pct": 6.1,
+      "ls_net_ann_pct": 3.5,
+      "ls_net_sharpe": 0.29,
+      "ls_net_t_nw": 0.96,
+      "ls_max_dd_pct": -38.82,
+      "ls_market_beta": -0.35,
+      "ls_capm_alpha_ann_pct": 12.6,
+      "ls_capm_alpha_t_nw": 2.59,
+      "monthly_turnover_pct": 20.74,
+      "first_half_net_ann_pct": 6.03,
+      "second_half_net_ann_pct": 0.05,
+      "first_half_alpha_ann_pct": 12.67,
+      "first_half_alpha_t_nw": 1.99,
+      "second_half_alpha_ann_pct": 10.31,
+      "second_half_alpha_t_nw": 1.41,
+      "long_only_active_ann_pct": 3.15,
+      "long_only_info_ratio": 0.41,
+      "long_only_active_t_nw": 1.32,
+      "alpha_p_value": 0.01,
+      "alpha_p_value_holm": 0.048,
+      "p_value": 0.337,
+      "p_value_holm": 1.0
+    },
+    "Short-term reversal": {
+      "ls_gross_ann_pct": 8.38,
+      "ls_net_ann_pct": -0.38,
+      "ls_net_sharpe": 0.03,
+      "ls_net_t_nw": 0.1,
+      "ls_max_dd_pct": -25.73,
+      "ls_market_beta": 0.24,
+      "ls_capm_alpha_ann_pct": -4.85,
+      "ls_capm_alpha_t_nw": -1.66,
+      "monthly_turnover_pct": 70.47,
+      "first_half_net_ann_pct": -3.43,
+      "second_half_net_ann_pct": 3.17,
+      "first_half_alpha_ann_pct": -8.52,
+      "first_half_alpha_t_nw": -1.91,
+      "second_half_alpha_ann_pct": -0.93,
+      "second_half_alpha_t_nw": -0.2,
+      "long_only_active_ann_pct": 1.52,
+      "long_only_info_ratio": 0.25,
+      "long_only_active_t_nw": 0.92,
+      "alpha_p_value": 0.097,
+      "alpha_p_value_holm": 0.389,
+      "p_value": 0.917,
+      "p_value_holm": 1.0
+    },
+    "Low volatility": {
+      "ls_gross_ann_pct": -14.29,
+      "ls_net_ann_pct": -15.31,
+      "ls_net_sharpe": -0.83,
+      "ls_net_t_nw": -2.48,
+      "ls_max_dd_pct": -77.44,
+      "ls_market_beta": -0.61,
+      "ls_capm_alpha_ann_pct": -1.62,
+      "ls_capm_alpha_t_nw": -0.35,
+      "monthly_turnover_pct": 9.9,
+      "first_half_net_ann_pct": -14.37,
+      "second_half_net_ann_pct": -16.68,
+      "first_half_alpha_ann_pct": -5.89,
+      "first_half_alpha_t_nw": -0.97,
+      "second_half_alpha_ann_pct": -0.82,
+      "second_half_alpha_t_nw": -0.12,
+      "long_only_active_ann_pct": -5.49,
+      "long_only_info_ratio": -0.62,
+      "long_only_active_t_nw": -1.87,
+      "alpha_p_value": 0.724,
+      "alpha_p_value_holm": 0.724,
+      "p_value": 0.013,
+      "p_value_holm": 0.066
+    },
+    "Low beta": {
+      "ls_gross_ann_pct": -11.78,
+      "ls_net_ann_pct": -12.76,
+      "ls_net_sharpe": -0.52,
+      "ls_net_t_nw": -1.54,
+      "ls_max_dd_pct": -73.75,
+      "ls_market_beta": -0.79,
+      "ls_capm_alpha_ann_pct": 5.82,
+      "ls_capm_alpha_t_nw": 1.09,
+      "monthly_turnover_pct": 9.14,
+      "first_half_net_ann_pct": -10.26,
+      "second_half_net_ann_pct": -15.65,
+      "first_half_alpha_ann_pct": 5.78,
+      "first_half_alpha_t_nw": 0.69,
+      "second_half_alpha_ann_pct": 3.51,
+      "second_half_alpha_t_nw": 0.54,
+      "long_only_active_ann_pct": -4.7,
+      "long_only_info_ratio": -0.41,
+      "long_only_active_t_nw": -1.24,
+      "alpha_p_value": 0.278,
+      "alpha_p_value_holm": 0.556,
+      "p_value": 0.124,
+      "p_value_holm": 0.494
+    },
+    "Momentum + low vol": {
+      "ls_gross_ann_pct": -4.22,
+      "ls_net_ann_pct": -6.35,
+      "ls_net_sharpe": -0.26,
+      "ls_net_t_nw": -0.86,
+      "ls_max_dd_pct": -48.75,
+      "ls_market_beta": -0.51,
+      "ls_capm_alpha_ann_pct": 6.19,
+      "ls_capm_alpha_t_nw": 1.33,
+      "monthly_turnover_pct": 18.58,
+      "first_half_net_ann_pct": -5.06,
+      "second_half_net_ann_pct": -8.65,
+      "first_half_alpha_ann_pct": 5.58,
+      "first_half_alpha_t_nw": 0.85,
+      "second_half_alpha_ann_pct": 4.59,
+      "second_half_alpha_t_nw": 0.7,
+      "long_only_active_ann_pct": -2.22,
+      "long_only_info_ratio": -0.21,
+      "long_only_active_t_nw": -0.71,
+      "alpha_p_value": 0.184,
+      "alpha_p_value_holm": 0.551,
+      "p_value": 0.389,
+      "p_value_holm": 1.0
+    }
+  },
+  "sharpe_vs_cost": {
+    "cost_bps": [
+      0,
+      10,
+      25,
+      50,
+      75,
+      100
+    ],
+    "Momentum (12-1)": [
+      0.43,
+      0.37,
+      0.29,
+      0.14,
+      -0.0,
+      -0.15
+    ],
+    "Short-term reversal": [
+      0.73,
+      0.45,
+      0.03,
+      -0.68,
+      -1.38,
+      -2.09
+    ],
+    "Low volatility": [
+      -0.77,
+      -0.79,
+      -0.83,
+      -0.9,
+      -0.97,
+      -1.03
+    ],
+    "Low beta": [
+      -0.47,
+      -0.49,
+      -0.52,
+      -0.57,
+      -0.62,
+      -0.68
+    ],
+    "Momentum + low vol": [
+      -0.14,
+      -0.19,
+      -0.26,
+      -0.38,
+      -0.51,
+      -0.63
+    ]
+  },
+  "autopsy": {
+    "top5_high_vol_winners": [
+      "ADANIENT",
+      "BAJFINANCE",
+      "UPL",
+      "BAJAJFINSV",
+      "JSWSTEEL"
+    ],
+    "their_log_return_contribution": [
+      0.29,
+      0.24,
+      0.16,
+      0.15,
+      0.13
+    ],
+    "results": {
+      "Momentum (12-1)": {
+        "all_50": 3.5,
+        "all_50_t": 0.96,
+        "without_5": -1.0,
+        "without_5_t": 0.11,
+        "alpha_all_50": 12.6,
+        "alpha_all_50_t": 2.59,
+        "alpha_without_5": 9.25,
+        "alpha_without_5_t": 2.07
+      },
+      "Short-term reversal": {
+        "all_50": -0.38,
+        "all_50_t": 0.1,
+        "without_5": 1.37,
+        "without_5_t": 0.6,
+        "alpha_all_50": -4.85,
+        "alpha_all_50_t": -1.66,
+        "alpha_without_5": -3.25,
+        "alpha_without_5_t": -1.0
+      },
+      "Low volatility": {
+        "all_50": -15.31,
+        "all_50_t": -2.48,
+        "without_5": -7.91,
+        "without_5_t": -1.31,
+        "alpha_all_50": -1.62,
+        "alpha_all_50_t": -0.35,
+        "alpha_without_5": 3.03,
+        "alpha_without_5_t": 0.71
+      },
+      "Low beta": {
+        "all_50": -12.76,
+        "all_50_t": -1.54,
+        "without_5": -4.92,
+        "without_5_t": -0.45,
+        "alpha_all_50": 5.82,
+        "alpha_all_50_t": 1.09,
+        "alpha_without_5": 10.21,
+        "alpha_without_5_t": 1.86
+      },
+      "Momentum + low vol": {
+        "all_50": -6.35,
+        "all_50_t": -0.86,
+        "without_5": -4.13,
+        "without_5_t": -0.45,
+        "alpha_all_50": 6.19,
+        "alpha_all_50_t": 1.33,
+        "alpha_without_5": 6.47,
+        "alpha_without_5_t": 1.33
+      }
+    }
+  }
+}
